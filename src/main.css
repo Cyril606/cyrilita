@@ -1,7 +1,7 @@
-/*html * {
-  outline: 1px solid red;
-}*/
-.block {
+html * {
+  outline: 2px solid green;
+}
+/*.block {
   border: 3px solid blueviolet;
   width: 40%;
   margin-left: 30%;
@@ -14,4 +14,17 @@
 
 .author {
   text-align: right;
+}*/
+
+.image {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.img_background {
+  background-image: url('./img/doge.jpg');
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
