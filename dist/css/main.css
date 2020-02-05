@@ -1,5 +1,11 @@
-@import "./partials/fixed/fixed.scss" html;
-* {
+.fixed {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  background-color: blueviolet;
+  height: 100px; }
+
+html * {
   outline: 3px solid red; }
 
 /*# sourceMappingURL=maps/main.css.map */
