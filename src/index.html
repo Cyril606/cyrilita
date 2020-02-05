@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.scss">
     <script src="js/main.js"></script>
     <title>Angry doge</title>
   </head>
   <body>
-    @@include("./partials/fixed/_fixed.html", {"test1": "heralt"})
-    <div>
-    
+    <div class="big-div">
+      <a href= "#anchor">go to Footer</a>
     </div>
+    <div id="anchor"> Footer</div>
+    @@include("./partials/fixed/_fixed.html", {"test1": "heralt"})
   </body>
 </html>

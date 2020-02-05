@@ -1,4 +1,5 @@
-html * {
-  outline: 1px solid red; }
+@import "./partials/fixed/fixed.scss" html;
+* {
+  outline: 3px solid red; }
 
 /*# sourceMappingURL=maps/main.css.map */
