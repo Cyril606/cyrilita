@@ -1,13 +1,30 @@
 .card {
-  border: 1px solid violet;
+  border: 1px solid grey;
   padding: 10px 15px; }
 
 .image {
   border-radius: 50%;
   border: 3px solid orange;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/director.png");
+  background-position: 50%;
+  background-size: cover;
+  margin: 0 auto; }
 
-html * {
-  outline: 1px solid red; }
+.title {
+  text-align: center; }
+
+.title__user-name {
+  color: #000; }
+
+.title__user-position {
+  color: orange; }
+
+/*html * {
+  outline: 1px solid red;
+}
+*/
 
 /*# sourceMappingURL=maps/main.css.map */
