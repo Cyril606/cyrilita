@@ -21,6 +21,21 @@
 
 .menu-logo {
   padding-top: 30px;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  transition-duration: 5s;
+  width: 100%;
+}
+
+.menu-logo:hover {
+  background-color: brown;
+  width: 100%;
+  -webkit-transform: ease(180deg);
+  transform: ease(180deg);
+  transition-duration: 5s;
+  transition-delay: 1s;
+  transition-property: inherit;
+  transition-timing-function: ease-in-out;
 }
 
 .logo-desc {
