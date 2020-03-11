@@ -7,6 +7,12 @@
     <title>Hello world</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div class="rating">
+      @@include('./partials/rating/_rating.html', {"ratingId": 1})
+      @@include('./partials/rating/_rating.html', {"ratingId": 2})
+      @@include('./partials/rating/_rating.html', {"ratingId": 3})
+      @@include('./partials/rating/_rating.html', {"ratingId": 4})
+      @@include('./partials/rating/_rating.html', {"ratingId": 5})
+    </div>
   </body>
 </html>
