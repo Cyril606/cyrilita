@@ -1,0 +1,34 @@
+/*html * {
+  outline: 1px solid red;
+}*/
+.content {
+  border: white; }
+
+.header {
+  background-color: gray; }
+
+.brief {
+  background-image: url(); }
+
+.shortlist {
+  column-span: all; }
+
+.longlist {
+  column-span: all; }
+
+.tinylist {
+  column-span: all; }
+
+.photolist {
+  background-image: url(); }
+
+.list {
+  column-span: all; }
+
+.pagelist {
+  background: image(); }
+
+.footer {
+  background-image: url(); }
+
+/*# sourceMappingURL=maps/main.css.map */
